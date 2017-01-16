@@ -15,6 +15,23 @@ a:hover,
 a:focus {
   text-decoration: none;
 }
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.overlay img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  margin: -80px 0 0 -50px;
+}
 .aside {
   position: fixed;
   left: 0;
@@ -671,15 +688,15 @@ a:focus {
   box-shadow: 0 1px 5px #CCC;
   background-color: pink;
 }
-#lesson label {
+#chapterModal label {
   color: #666;
   font-weight: normal;
 }
-#lesson .help-block {
+#chapterModal .help-block {
   color: #999;
   font-size: 12px;
 }
-#lesson input.small {
+#chapterModal input.small {
   width: 80px;
 }
 #teacherModal .avatar {

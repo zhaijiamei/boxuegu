@@ -3,6 +3,25 @@
 @import 'variable.less';
 @import 'mixin.less';
 
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+
+    img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 100px;
+        margin: -80px 0 0 -50px;
+    }
+}
+
 // 侧边栏
 .aside {
     position: fixed;
@@ -865,7 +884,7 @@
     }
 }
 
-#lesson {
+#chapterModal {
 
     label {
         color: #666;
@@ -899,7 +918,6 @@
         padding: 15px 10px;
     }
 }
-
 
 
 
