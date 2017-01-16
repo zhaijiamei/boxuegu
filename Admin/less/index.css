@@ -106,6 +106,16 @@ a:focus {
   border-bottom: 1px solid #EEE;
   border-radius: 0;
 }
+.main .header .navbar-header {
+  float: left;
+}
+.main .header .navbar-right {
+  float: right!important;
+  margin-right: -15px;
+}
+.main .header .navbar-right li {
+  float: left;
+}
 .main .header .navbar-brand {
   height: auto;
   line-height: 1;
@@ -130,6 +140,11 @@ a:focus {
   top: 8px;
   left: 24px;
   border-radius: 4px;
+}
+.main .body .form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
 }
 .main .body .breadcrumb {
   background-color: #FFF;
